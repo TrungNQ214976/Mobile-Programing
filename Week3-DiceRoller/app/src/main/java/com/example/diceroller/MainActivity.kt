@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         rollButton.setOnClickListener {
             val resultTextView: TextView = findViewById(R.id.textView)
             resultTextView.text = rollDice()
-            val toast: Toast = Toast.makeText(this,"You rolled a ${resultTextView.text}!", Toast.LENGTH_SHORT)
+            val toast: Toast = Toast.makeText(this,"You rolled a ${resultTextView.text}!?", Toast.LENGTH_SHORT)
             toast.show()
         }
 
